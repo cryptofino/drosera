@@ -5,6 +5,27 @@
     "forge-std": "github:foundry-rs/forge-std#v1.8.1"
   },
   "dependencies": {
-    "contracts": "https://github.com/drosera-network/contracts"
-  }
+    "contracts": "git+https://github.com/drosera-network/contracts.git"
+  },
+  "version": "1.0.0",
+  "description": "This repo is for quickly bootstrapping a new Drosera project. It includes instructions for creating your first trap, deploying it to the Drosera network, and updating it on the fly.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cryptofino/drosera.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/cryptofino/drosera/issues"
+  },
+  "homepage": "https://github.com/cryptofino/drosera#readme"
 }
